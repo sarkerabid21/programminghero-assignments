@@ -116,6 +116,10 @@ background-color:rgba(255, 255, 255, 1);
     border-radius: 16px;
     width: 410px;
   }
+  .pillar-h:hover{
+    background-color: #FFD7C4;
+    cursor: pointer;
+  }
   .pillar img{
     width: 64px;
     height: 64px;
@@ -466,6 +470,11 @@ width: 1155px;
   font-weight: bold;
   font-size: 32px;
   border: 1px solid rgba(14, 14, 14, 0.15);}
+
+  .taka h1:hover{
+    background-color: #FFD7C4;
+  cursor: pointer;
+  }
 .taka .clr{
   background-color: rgba(198, 228, 214, 1);
   
