@@ -32,6 +32,11 @@
     
     
   }
+  .btn:hover{
+    background-color: rgba(0, 106, 80, 1) ;;
+    cursor: pointer;
+    color: white ; 
+  }
   .banner{
    
     background-color:rgba(198, 228, 214, 1) ;
@@ -69,6 +74,10 @@
     margin-top: 24px;
     border: none;
 
+  }
+  .btn-banner:hover{
+    background-color: red;
+    cursor: pointer;
   }
   .img-dp{
     margin-left: 64px;
@@ -141,6 +150,11 @@ background-color:rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);
 
   }
+  .learn1:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+
   .learn2{
     background-color: rgba(9, 161, 92, 1);
     border-radius: 8px;
@@ -152,6 +166,10 @@ background-color:rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);
 
   }
+  .learn2:hover{
+    background-color: red;
+    cursor: pointer;
+  }
   .learn3{
     background-color: rgba(255, 194, 57, 1);
     border-radius: 8px;
@@ -162,6 +180,10 @@ background-color:rgba(255, 255, 255, 1);
     font-weight: 600px;
     color: rgba(255, 255, 255, 1);
 
+  }
+  .learn3:hover{
+    background-color: red;
+    cursor: pointer;
   }
   .pillar-clr1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -321,6 +343,10 @@ width: 1155px;
   color: rgba(255, 255, 255, 1);
 
 }
+.box1-right button:hover{
+  background-color: red;
+  cursor: pointer;
+}
 .logo img{
   width: 108px;
   height: 32px;
@@ -369,6 +395,11 @@ width: 1155px;
   color: rgba(255, 255, 255, 1);
 
 }
+.box2-left button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
 
 /* box3 */
 .box3-left img{
@@ -399,6 +430,10 @@ width: 1155px;
   border: none;
   color: rgba(255, 255, 255, 1);
 
+}
+.box3-right button:hover{
+  background-color: red;
+  cursor: pointer;
 }
 .donate-containar{
   text-align: center;
@@ -450,6 +485,11 @@ width: 1155px;
   justify-content: center;
   
 }
+
+.donate-btn button:hover
+{background-color: red;
+cursor: pointer;}
+
 .donate-btn button{
   width: 121px;
   height: 45px;
@@ -459,7 +499,7 @@ width: 1155px;
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: 600px;
-  padding: 13px;
+  
   margin-bottom: 65px;
 
 }
@@ -493,11 +533,18 @@ width: 1155px;
 }
 .subscribe-box{
   margin-bottom:24px ;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left:265px;
+    
 
 }
 .subscribe-box input{
-  margin: 0;
-  display: inline-block;
+  border: none;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 
   width: 600px;
   height: 45px;
@@ -506,11 +553,21 @@ width: 1155px;
 
 }
 .subscribe-box button{
-  margin: 0;
-  display: inline-block;
-
+  padding: 12px 34px;
   background-color: rgba(0, 106, 80, 1);
+  height: 46px;
+  width: 150px;
+  color: rgba(255, 255, 255, 1);
+  font-size:18px ;
+  font-weight: 600px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
+.subscribe-box button:hover
+{background-color: red;
+cursor: pointer;}
+
 .ti-m{
   color: rgba(14, 14, 14, 1);
   font-size: 32px;
