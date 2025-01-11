@@ -422,5 +422,37 @@ width: 1155px;
   padding: 40px;
   color: rgba(14, 14, 14, 0.8);
   font-weight: bold;
-  font-size: 32px;}
+  font-size: 32px;
+  border: 1px solid rgba(14, 14, 14, 0.15);}
+.taka .clr{
+  background-color: rgba(198, 228, 214, 1);
+  
+}
+.donate-amnt input{
+  text-align: center;
+  width: 1150px;
+  height: 52px;
+  margin: 26px 0px 26px 185px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  
+  
+}
+.donate-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.donate-btn button{
+  width: 121px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: rgba(0, 106, 80, 1);
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600px;
+  padding: 13px;
+
+}
 
