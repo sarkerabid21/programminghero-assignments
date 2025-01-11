@@ -251,3 +251,176 @@ width: 1155px;
     font-weight: 500px;
     border-radius: 4px;
 }
+.title-news{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgba(14, 14, 14, 1);
+}
+
+.news-containar {
+  
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0px 128px 26px 160px;
+   
+
+    
+}
+.news-containar p{
+  margin-top: 20px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.box1, .box2, .box3{ 
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 48px ;
+  margin-top: 20px;
+  gap: 26px;
+  border-radius: 24px;
+  width: 1110px;
+  height: 240px;
+}
+.box1-left img{
+  width: 326px;
+  height: 244px;
+
+  border-radius: 24px;
+}
+.box1-right h3{
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+ 
+}
+.box1-right p{
+  font-size: 13px ;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 12px 0 28px 0;
+}
+.box1-right button{
+  
+  
+  padding: 11px 20px;
+  font-size: 18px;
+  font-weight: 600px;
+  background-color:rgba(0, 106, 80, 1) ;
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+
+}
+.logo img{
+  width: 108px;
+  height: 32px;
+  padding: 10px 0 10px 0;
+}
+.date{
+  display: flex;
+  gap: 12px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 13px;
+  font-weight: 400px;
+}
+
+/* box2 */
+.box2{
+  margin: 20px 0 20px 0;
+}
+
+
+.box2-right img{
+  width: 326px;
+  height: 244px;
+
+  border-radius: 24px;
+}
+.box2-left h3{
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  
+}
+.box2-left p{
+  font-size: 13px ;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 12px 0 28px 0;
+}
+.box2-left button{
+  
+ 
+  padding: 11px 20px;
+  font-size: 18px;
+  font-weight: 600px;
+  background-color:rgba(0, 106, 80, 1) ;
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+/* box3 */
+.box3-left img{
+  width: 326px;
+  height: 244px;
+
+  border-radius: 24px;
+}
+.box3-right h3{
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+ 
+}
+.box3-right p{
+  font-size: 13px ;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 12px 0 28px 0;
+}
+.box3-right button{
+  
+  
+  padding: 11px 20px;
+  font-size: 18px;
+  font-weight: 600px;
+  background-color:rgba(0, 106, 80, 1) ;
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+
+}
+.donate-containar{
+  text-align: center;
+  margin: 80px 160px 32px 160px ;
+}
+.donate-containar h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+}
+.donate-containar p{
+  font-size: 13px ;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 24px ;
+  padding:0 88px 0 88px ;
+}
+.taka {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  
+}
+.taka h1{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  width: 192px;
+  text-align: center;
+  padding: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+  font-size: 32px;}
+
